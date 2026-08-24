@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+  <title id="title">电脑端导入 VLESS 流程</title>
+  <desc id="desc">复制链接、从剪贴板导入、选择节点、开启系统代理</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#08172d"/><stop offset="1" stop-color="#153a4a"/></linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#64a6ff"/><stop offset="1" stop-color="#55d6be"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#020817" flood-opacity=".4"/></filter>
+  </defs>
+  <rect width="1200" height="560" rx="24" fill="url(#bg)"/>
+  <text x="60" y="70" fill="#f6f9ff" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="34" font-weight="800">电脑端四步导入</text>
+  <text x="60" y="105" fill="#a9c3e7" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="17">Windows / macOS · 界面文字可能略有不同</text>
+  <path d="M272 290H330M554 290H612M836 290H894" stroke="url(#line)" stroke-width="6" stroke-linecap="round"/>
+  <path d="m321 276 18 14-18 14M603 276l18 14-18 14M885 276l18 14-18 14" fill="none" stroke="#55d6be" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <g filter="url(#shadow)">
+    <rect x="48" y="160" width="224" height="260" rx="18" fill="#132b4b" stroke="#5b8ff7" stroke-opacity=".75"/>
+    <circle cx="90" cy="205" r="25" fill="#315da6"/><text x="90" y="214" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="23" font-weight="700">1</text>
+    <text x="76" y="275" fill="#fff" font-family="sans-serif" font-size="23" font-weight="700">复制链接</text>
+    <text x="76" y="312" fill="#abc6e9" font-family="sans-serif" font-size="16">完整的 vless:// URI</text>
+    <rect x="76" y="345" width="170" height="34" rx="8" fill="#0b1a32"/><text x="91" y="367" fill="#7ee6d6" font-family="monospace" font-size="13">vless://…#Demo</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="330" y="160" width="224" height="260" rx="18" fill="#132b4b" stroke="#55d6be" stroke-opacity=".75"/>
+    <circle cx="372" cy="205" r="25" fill="#117c76"/><text x="372" y="214" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="23" font-weight="700">2</text>
+    <text x="358" y="275" fill="#fff" font-family="sans-serif" font-size="23" font-weight="700">剪贴板导入</text>
+    <text x="358" y="312" fill="#abc6e9" font-family="sans-serif" font-size="16">Servers → Import</text>
+    <rect x="358" y="345" width="170" height="34" rx="8" fill="#0b1a32"/><text x="372" y="367" fill="#7ee6d6" font-family="sans-serif" font-size="13">从剪贴板导入</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="612" y="160" width="224" height="260" rx="18" fill="#132b4b" stroke="#c487ff" stroke-opacity=".75"/>
+    <circle cx="654" cy="205" r="25" fill="#7540a3"/><text x="654" y="214" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="23" font-weight="700">3</text>
+    <text x="640" y="275" fill="#fff" font-family="sans-serif" font-size="23" font-weight="700">选中节点</text>
+    <text x="640" y="312" fill="#abc6e9" font-family="sans-serif" font-size="16">设为活动服务器</text>
+    <rect x="640" y="345" width="170" height="34" rx="8" fill="#0b1a32"/><text x="654" y="367" fill="#d6a8ff" font-family="sans-serif" font-size="13">Active ✓</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="894" y="160" width="258" height="260" rx="18" fill="#132b4b" stroke="#ffcb6b" stroke-opacity=".75"/>
+    <circle cx="936" cy="205" r="25" fill="#ac7026"/><text x="936" y="214" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="23" font-weight="700">4</text>
+    <text x="922" y="275" fill="#fff" font-family="sans-serif" font-size="23" font-weight="700">开启系统代理</text>
+    <text x="922" y="312" fill="#abc6e9" font-family="sans-serif" font-size="16">先规则，排障再全局</text>
+    <rect x="922" y="345" width="196" height="34" rx="8" fill="#0b1a32"/><text x="938" y="367" fill="#ffdb9a" font-family="sans-serif" font-size="13">System Proxy: ON</text>
+  </g>
+  <text x="60" y="505" fill="#8ea8c9" font-family="sans-serif" font-size="15">真实链接不要放进公开仓库、截图或 Issue</text>
+  <text x="1140" y="505" text-anchor="end" fill="#dffdf5" font-family="sans-serif" font-size="15" font-weight="700">老李 Oldlee</text>
+</svg>
