@@ -1,0 +1,3 @@
+# 仅用于教学排版，不能连接
+
+vless://<VLESS_UUID>@example.com:443?encryption=none&security=reality&type=tcp&sni=example.com&fp=chrome&pbk=<REALITY_PUBLIC_KEY>&sid=<REALITY_SHORT_ID>#Oldlee-Demo
