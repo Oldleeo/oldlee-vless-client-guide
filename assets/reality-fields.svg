@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+  <title id="title">VLESS REALITY 参数关系</title>
+  <desc id="desc">客户端字段与服务端配置一一对应的教学示意图</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#08172d"/><stop offset="1" stop-color="#193750"/></linearGradient>
+    <linearGradient id="wire" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#64a6ff"/><stop offset="1" stop-color="#55d6be"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#020817" flood-opacity=".45"/></filter>
+  </defs>
+  <rect width="1200" height="620" rx="24" fill="url(#bg)"/>
+  <text x="60" y="70" fill="#f6f9ff" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="34" font-weight="800">参数不是装饰，是一一配对</text>
+  <text x="60" y="105" fill="#a9c3e7" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="17">公钥给客户端，私钥只留在服务端</text>
+  <g filter="url(#shadow)">
+    <rect x="60" y="155" width="300" height="350" rx="20" fill="#132b4b" stroke="#64a6ff" stroke-opacity=".8"/>
+    <text x="96" y="210" fill="#dff1ff" font-family="sans-serif" font-size="24" font-weight="800">客户端填写</text>
+    <g font-family="monospace" font-size="16" fill="#abc6e9">
+      <text x="96" y="260">Address</text><text x="96" y="298">Port</text><text x="96" y="336">UUID</text><text x="96" y="374">SNI</text><text x="96" y="412">Public Key</text><text x="96" y="450">Short ID</text>
+    </g>
+    <g fill="#7ee6d6" font-family="sans-serif" font-size="14"><text x="232" y="260">入口</text><text x="232" y="298">入口</text><text x="232" y="336">身份</text><text x="232" y="374">握手</text><text x="232" y="412">公钥</text><text x="232" y="450">握手</text></g>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="840" y="155" width="300" height="350" rx="20" fill="#132b4b" stroke="#55d6be" stroke-opacity=".8"/>
+    <text x="876" y="210" fill="#dffdf5" font-family="sans-serif" font-size="24" font-weight="800">服务端配置</text>
+    <g font-family="monospace" font-size="16" fill="#abc6e9">
+      <text x="876" y="260">listen / port</text><text x="876" y="298">client UUID</text><text x="876" y="336">serverName</text><text x="876" y="374">Private Key</text><text x="876" y="412">shortIds</text><text x="876" y="450">flow / network</text>
+    </g>
+    <g fill="#ffdb9a" font-family="sans-serif" font-size="14"><text x="1035" y="260">监听</text><text x="1035" y="298">身份</text><text x="1035" y="336">握手</text><text x="1035" y="374">仅服务端</text><text x="1035" y="412">握手</text><text x="1035" y="450">传输</text></g>
+  </g>
+  <g stroke="url(#wire)" stroke-width="4" stroke-linecap="round" opacity=".9">
+    <path d="M360 260H840M360 298H840M360 374H840M360 412H840M360 450H840" stroke-dasharray="9 12"/>
+  </g>
+  <g fill="#55d6be"><circle cx="600" cy="260" r="6"/><circle cx="600" cy="298" r="6"/><circle cx="600" cy="374" r="6"/><circle cx="600" cy="412" r="6"/><circle cx="600" cy="450" r="6"/></g>
+  <rect x="410" y="520" width="380" height="48" rx="24" fill="#0d233b" stroke="#ffcb6b" stroke-opacity=".7"/>
+  <text x="600" y="551" text-anchor="middle" fill="#ffdb9a" font-family="sans-serif" font-size="16" font-weight="700">不要猜参数 · 一条链接保持完整导入</text>
+  <text x="60" y="585" fill="#8ea8c9" font-family="sans-serif" font-size="15">教学示意图，不含真实服务器参数</text>
+  <text x="1140" y="585" text-anchor="end" fill="#dffdf5" font-family="sans-serif" font-size="15" font-weight="700">© 老李 Oldlee</text>
+</svg>
