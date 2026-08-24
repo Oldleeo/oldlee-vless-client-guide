@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+  <title id="title">VLESS 客户端使用指南</title>
+  <desc id="desc">老李 Oldlee 的 XrayN、v2rayN 和 Shadowrocket 教学封面</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07162e"/>
+      <stop offset="0.55" stop-color="#102b4a"/>
+      <stop offset="1" stop-color="#123d4b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#55d6be"/>
+      <stop offset="1" stop-color="#64a6ff"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#020817" flood-opacity=".45"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="650" rx="28" fill="url(#bg)"/>
+  <g opacity=".18" stroke="#a9d8ff" stroke-width="1">
+    <path d="M0 86H1200M0 172H1200M0 258H1200M0 344H1200M0 430H1200M0 516H1200"/>
+    <path d="M86 0V650M172 0V650M258 0V650M344 0V650M430 0V650M516 0V650M602 0V650M688 0V650M774 0V650M860 0V650M946 0V650M1032 0V650M1118 0V650"/>
+  </g>
+  <circle cx="1040" cy="110" r="170" fill="#55d6be" opacity=".09"/>
+  <circle cx="1040" cy="110" r="118" fill="none" stroke="#55d6be" stroke-opacity=".22"/>
+  <circle cx="1040" cy="110" r="70" fill="none" stroke="#64a6ff" stroke-opacity=".32"/>
+  <g transform="translate(80 75)">
+    <rect width="210" height="38" rx="19" fill="#122d50" stroke="#55d6be" stroke-opacity=".65"/>
+    <circle cx="24" cy="19" r="6" fill="#55d6be"/>
+    <text x="42" y="25" fill="#dffdf5" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="16" font-weight="700" letter-spacing="1">OLDLEE · GUIDE</text>
+  </g>
+  <text x="80" y="205" fill="#f4f8ff" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="58" font-weight="800">VLESS 客户端</text>
+  <text x="80" y="275" fill="url(#accent)" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="58" font-weight="800">一看就懂的使用指南</text>
+  <text x="84" y="325" fill="#b4c7df" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="22">XrayN / v2rayN · Windows / macOS · Shadowrocket</text>
+  <g filter="url(#shadow)" transform="translate(80 390)">
+    <rect width="310" height="118" rx="20" fill="#132b4b" stroke="#5b8ff7" stroke-opacity=".7"/>
+    <rect x="26" y="25" width="75" height="54" rx="7" fill="#0b1a32" stroke="#7eb2ff" stroke-width="3"/>
+    <path d="M39 93h50M53 80v13M75 80v13" stroke="#7eb2ff" stroke-width="4" stroke-linecap="round"/>
+    <text x="126" y="52" fill="#f4f8ff" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="22" font-weight="700">电脑端</text>
+    <text x="126" y="80" fill="#a9c3e7" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="16">复制 · 导入 · 开启代理</text>
+  </g>
+  <g filter="url(#shadow)" transform="translate(420 390)">
+    <rect width="310" height="118" rx="20" fill="#132b4b" stroke="#55d6be" stroke-opacity=".75"/>
+    <rect x="40" y="20" width="42" height="76" rx="9" fill="#0b1a32" stroke="#7ee6d6" stroke-width="3"/>
+    <circle cx="61" cy="85" r="3" fill="#7ee6d6"/>
+    <text x="126" y="52" fill="#f4f8ff" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="22" font-weight="700">手机端</text>
+    <text x="126" y="80" fill="#a9c3e7" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="16">Shadowrocket · 一键导入</text>
+  </g>
+  <g filter="url(#shadow)" transform="translate(760 390)">
+    <rect width="310" height="118" rx="20" fill="#132b4b" stroke="#c487ff" stroke-opacity=".75"/>
+    <path d="M43 60h42M64 39v42M47 43l34 34M81 43L47 77" stroke="#d6a8ff" stroke-width="5" stroke-linecap="round"/>
+    <text x="126" y="52" fill="#f4f8ff" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="22" font-weight="700">少踩坑</text>
+    <text x="126" y="80" fill="#a9c3e7" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="16">字段 · 路由 · 排障</text>
+  </g>
+  <text x="80" y="590" fill="#8ea8c9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="16">公开教学仓库 · 不含真实节点信息</text>
+  <text x="1120" y="590" text-anchor="end" fill="#dffdf5" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="16" font-weight="700">© 2026 老李 Oldlee</text>
+</svg>
